@@ -1,0 +1,70 @@
+div#taschenrechner {
+    border-radius: 16px;
+    box-shadow: 0 2px 2px #555, 1px 1px 4px #ddd inset, -2px -2px 4px #555 inset;
+    padding: 24px;
+    width: 50%;
+    height: 80%;
+    background: #ddd;
+    margin: 5%;
+    float: left;
+}
+
+a.button {
+    background: #999;
+    float: left;
+    padding: 12px;
+    display: box;
+    width: 80%;
+    line-height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px #888, -1px -1px 2px #ddd inset, 1px 1px 2px #555 inset, -1px -1px 2px #ddd inset, 1px 1px 2px #555 inset, -1px -1px 2px #ddd inset, 1px 1px 2px #555 inset, -1px -1px 2px #ddd inset, 1px 1px 2px #555 inset;
+    text-shadow: 0 1px 1px #fff;
+}
+
+td[rowspan="2"] a.button {
+    height: 80%;
+    line-height: 60px;
+}
+
+td[colspan="2"] a.button {
+    width: 90%;
+}
+
+a.button:hover {
+    background: #aaa;
+}
+
+
+a.button:active {
+    box-shadow: -1px -1px 2px #ddd inset, 1px 1px 2px #555 inset;
+}
+
+div#display {
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px #555 inset;
+    background: kahki;
+    width: 80%;
+    margin: 8px auto;
+    padding: 24px;
+}
+
+div#display p {
+    text-align: right;
+    font-style: monospace;
+}
+
+table {
+    width: 100%;
+    height: 80%;
+    margin: 8px auto;
+    vertical-align: top;
+}
+
+table td {
+    padding: 6px;
+    height: 100%;
+}
