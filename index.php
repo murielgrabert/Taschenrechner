@@ -11,8 +11,8 @@
 		    </div>
 		    <table>
 		        <tr>
-		            <td><a class="button">-</a></td>
 		            <td><a class="button">*</a></td>
+		            <td><a class="button">-</a></td>
 		            <td><a class="button">/</a></td>
 		            <td><a class="button">CE</a></td>
 		        </tr>
